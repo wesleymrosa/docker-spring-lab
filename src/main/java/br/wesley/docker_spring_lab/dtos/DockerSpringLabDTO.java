@@ -16,4 +16,20 @@ public class DockerSpringLabDTO implements Serializable {
         this.nome = obj.getNome();
         this.idade = obj.getIdade();
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Integer getIdade() {
+        return idade;
+    }
+
+    public void setIdade(Integer idade) {
+        this.idade = idade;
+    }
 }
